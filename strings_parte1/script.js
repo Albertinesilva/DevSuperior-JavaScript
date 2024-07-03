@@ -5,13 +5,13 @@ console.log(`Um string literal pode ficar entre crases`)
 console.log("Concatenação e interpolação:")
 const num = 14.5;
 console.log("O Valor do produto é "+ num);
-console.log("O valor do produto é", num);
+console.log('O valor do produto é', num);
 console.log(`O Valor do produto é ${num}`);
 
 console.log("Conversão entre number e string:");
 
 const str1 = num.toString();
-console.log(`Tipo de dado: ${str1} e ${typeof str1}`);
+console.log(`Tipo de dado: ${str1}: ${typeof str1}`);
 
 const str2 = num.toFixed(2);
 console.log(`Tipo de dado: ${str2} : ${typeof str2}`);
