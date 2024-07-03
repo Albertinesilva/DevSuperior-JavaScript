@@ -19,6 +19,7 @@ console.log(`length: ${str.length}`);
 console.log(`indexOf: ${str.indexOf("i")}`);
 console.log(`lastIndexOf: ${str.lastIndexOf("i")}`);
 
+console.log(`substring: ${str.substring(3)}`)
 console.log(`substring: ${str.substring(3, 8)}`)
 
 const data = "14/10/2021";
