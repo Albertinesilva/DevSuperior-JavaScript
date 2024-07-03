@@ -2,7 +2,7 @@
 
 ## Principais Fundamentos de JavaScript para Preparação em Frameworks Front-End
 
-Este repositório foi criado com o objetivo de fornecer uma base sólida nos fundamentos de JavaScript, essenciais para quem deseja trabalhar com frameworks front-end. Aqui, você encontrará uma série de recursos e exemplos práticos que ajudarão a consolidar seu conhecimento e preparar você para enfrentar desafios mais avançados no desenvolvimento web.
+Este repositório foi criado com o objetivo de fornecer uma base sólida nos fundamentos de JavaScript, essenciais para meus estudos e preparação para trabalhar com frameworks front-end. Aqui, você encontrará uma série de recursos e exemplos práticos que ajudarão a consolidar meu conhecimento e preparar-me para enfrentar desafios mais avançados no desenvolvimento web.
 
 ## Tópicos Abordados
 
@@ -55,3 +55,7 @@ Este repositório foi criado com o objetivo de fornecer uma base sólida nos fun
    ```bash
    git clone https://github.com/Albertinesilva/DevSuperior-JavaScript.git
    cd nivelamento-javascript
+
+## Autor:
+
+**Albert Silva de Jesus**
