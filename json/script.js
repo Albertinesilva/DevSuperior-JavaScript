@@ -1,18 +1,11 @@
-# ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) Curso Nivelamento JavaScript
-
-> Principais fundamentos de JavaScript para se preparar para trabalhar com frameworks front end
-
-## JavaScript - JSON
-
-https://www.json.org
-
-```javascript
+// Criação de objetos em formato JSON com aspas duplas
 const obj1 = {
   "name": "Computador",
   "price": 50.9,
   "due-date": "2025-04-15"
 };
 
+// Criação de objetos em formato JSON sem aspas duplas
 const obj2 = {
   name: "Computador",
   price: 50.9,
@@ -41,25 +34,23 @@ const obj3 = {
   },
 };
 
-console.log(obj1);
-console.log(obj2);
-console.log(obj3);
+console.log("obj1: ", obj1);
+console.log("\nobj2: ", obj2);
+console.log("\nobj3: ", obj3);
 
-console.log(obj3.id);
-console.log(obj3.client);
-console.log(obj3.client.name);
-```
+console.log("\nobj3.date:", obj3.date);
+console.log("\nobj3.client.name:", obj3.client.name);
 
-### parse / stringify
-
-```javascript
 const txt = `{"name": "Computer", "price": 50.9, "due-date": "2025-04-15"}`;
 
+// Converte um texto (string) em JSON
 const obj = JSON.parse(txt);
 
-console.log(txt.nome);
+// Exibe o nome do objeto txt
+console.log("\ntxt:", txt.name);
 
-console.log(obj.nome);
+console.log("\nobj.name:", obj.name);
 
+// Converte um objeto em JSON para texto (string)
 const text = JSON.stringify(obj);
-```
+console.log("\ntext:", text);
