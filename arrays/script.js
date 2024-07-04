@@ -36,7 +36,7 @@ console.log(alturas);
 // Para inserir ou remover elementos em qualquer posição do array, podemos utilizar os métodos splice() e slice().
 const letras = ["a", "b", "c", "d", "e", "f"];
 letras.splice(2, 0, "x", "y");  // Insere "x" e "y" na posição 2
-console.log("\nTeste splice");  
+console.log("\nTeste splice");
 console.log(letras);
 
 letras.splice(2, 2);  // Remove 2 elementos a partir da posição 2
@@ -73,6 +73,6 @@ for (let i = 0; i < frutas.length; i++) {
 // Podemos percorrer os elementos de um array utilizando o método forEach().
 
 console.log("\nTeste percorrer um array com forEach");
-frutas.forEach(item =>{
-    console.log(item);
+frutas.forEach(item => {
+  console.log(item);
 })

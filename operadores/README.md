@@ -1,5 +1,6 @@
 # ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) Curso Nivelamento JavaScript
->  Principais fundamentos de JavaScript para se preparar para trabalhar com frameworks front end
+
+> Principais fundamentos de JavaScript para se preparar para trabalhar com frameworks front end
 
 ## JavaScript - Operadores
 
@@ -27,9 +28,9 @@ console.log(`3 ** 4 = ${3 ** 4}`);
 ### Operadores comparativos
 
 ```
-< 
-> 
-<= 
+<
+>
+<=
 >=
 ```
 
@@ -43,12 +44,12 @@ console.log(`10 <= 5 = ${10 <= 5}`);
 
 ```
 Converte para um tipo em comum, depois compara:
-== 
+==
 !=
 
 Compara levando em conta também o tipo:
-=== 
-!== 
+===
+!==
 
 object: compara referência
 string, number, boolean: compara valor
@@ -86,9 +87,9 @@ console.log(`typeof a: ${typeof a}`);
 
 ```javascript
 console.log("Operadores lógicos");
-console.log(`(10 > 5) && (10 > 20): ${(10 > 5) && (10 > 20)}`);
-console.log(`(10 > 5) && (10 < 20): ${(10 > 5) && (10 < 20)}`);
-console.log(`(10 > 5) || (10 > 20): ${(10 > 5) || (10 > 20)}`);
-console.log(`(10 < 5) || (10 > 20): ${(10 > 5) && (10 > 20)}`);
+console.log(`(10 > 5) && (10 > 20): ${10 > 5 && 10 > 20}`);
+console.log(`(10 > 5) && (10 < 20): ${10 > 5 && 10 < 20}`);
+console.log(`(10 > 5) || (10 > 20): ${10 > 5 || 10 > 20}`);
+console.log(`(10 < 5) || (10 > 20): ${10 > 5 && 10 > 20}`);
 console.log(`!(10 > 5): ${!(10 > 5)}`);
 ```

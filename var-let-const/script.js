@@ -3,7 +3,7 @@
 const x = 10
 
 //variavel declarada com o var tem escopo global, vai fazar depois do if
-if(x > 0){
+if (x > 0) {
     var a = 100;
     let b = 200;
     const c = 300;
@@ -21,6 +21,6 @@ console.log(a)
 
 //variavel declarada com o let tem escopo local.
 console.log("Imprimindo resultado do for:");
-for(let i = 0; i < 5; i++){
+for (let i = 0; i < 5; i++) {
     console.log(i)
 }

@@ -1,15 +1,16 @@
 # ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) Curso Nivelamento JavaScript
->  Principais fundamentos de JavaScript para se preparar para trabalhar com frameworks front end
+
+> Principais fundamentos de JavaScript para se preparar para trabalhar com frameworks front end
 
 ## JavaScript - Strings
 
 ```javascript
-const str = "Maria Silva  "
+const str = "Maria Silva  ";
 
-console.log(`const str = "Maria Silva   "`)
+console.log(`const str = "Maria Silva   "`);
 
-const resultado = str.toLowerCase()
-console.log(resultado)
+const resultado = str.toLowerCase();
+console.log(resultado);
 
 console.log(`toLowerCase: ${str.toLowerCase()}`);
 console.log(`toUpperCase: ${str.toUpperCase()}`);
@@ -25,13 +26,13 @@ console.log(`length: ${str.length}`);
 console.log(`indexOf: ${str.indexOf("i")}`);
 console.log(`lastIndexOf: ${str.lastIndexOf("i")}`);
 
-console.log(`substring: ${str.substring(3)}`)
-console.log(`substring: ${str.substring(3, 8)}`)
+console.log(`substring: ${str.substring(3)}`);
+console.log(`substring: ${str.substring(3, 8)}`);
 
 const data = "14/10/2021";
 
-//Pega o mês 
-const mes = data.substring(3, 5 );
+//Pega o mês
+const mes = data.substring(3, 5);
 console.log(`mes: ${mes}`);
 console.log(`mes: ${typeof mes}`);
 

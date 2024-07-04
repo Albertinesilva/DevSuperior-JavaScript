@@ -1,12 +1,12 @@
 const time = 20;
 
-if(time < 12){
+if (time < 12) {
   console.log('Bom dia!');
 }
-else if(time < 18){
+else if (time < 18) {
   console.log('Boa tarde!');
 }
-else{
+else {
   console.log('Boa noite!');
 }
 

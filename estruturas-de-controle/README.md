@@ -1,5 +1,6 @@
 # ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) Curso Nivelamento JavaScript
->  Principais fundamentos de JavaScript para se preparar para trabalhar com frameworks front end
+
+> Principais fundamentos de JavaScript para se preparar para trabalhar com frameworks front end
 
 ## JavaScript - Estruturas de controle
 

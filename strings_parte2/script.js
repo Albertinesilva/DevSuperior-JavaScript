@@ -25,7 +25,7 @@ console.log(`substring: ${str.substring(3, 8)}`)
 const data = "14/10/2021";
 
 //Pega o mês 
-const mes = data.substring(3, 5 );
+const mes = data.substring(3, 5);
 console.log(`mes: ${mes}`);
 console.log(`mes: ${typeof mes}`);
 

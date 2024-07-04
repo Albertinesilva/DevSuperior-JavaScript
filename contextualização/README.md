@@ -1,5 +1,6 @@
 # ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) Curso Nivelamento JavaScript
->  Principais fundamentos de JavaScript para se preparar para trabalhar com frameworks front end
+
+> Principais fundamentos de JavaScript para se preparar para trabalhar com frameworks front end
 
 ## JavaScript - Contextualização
 
@@ -10,6 +11,7 @@
 - Criada por Brendan Eich em 1995. Nome: LiveScript.
 
 - ECMAScript é a especificação padrão para linguagem de script
+
   - https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
   - ECMA-262 e ISO/IEC 16262
   - JavaScript, JScript e ActionScript seguem a ECMAScript

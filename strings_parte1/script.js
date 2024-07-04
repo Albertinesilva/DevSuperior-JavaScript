@@ -4,7 +4,7 @@ console.log(`Um string literal pode ficar entre crases`)
 
 console.log("Concatenação e interpolação:")
 const num = 14.5;
-console.log("O Valor do produto é "+ num);
+console.log("O Valor do produto é " + num);
 console.log('O valor do produto é', num);
 console.log(`O Valor do produto é ${num}`);
 

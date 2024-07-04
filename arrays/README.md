@@ -1,12 +1,12 @@
 # ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) Curso Nivelamento JavaScript
->  Principais fundamentos de JavaScript para se preparar para trabalhar com frameworks front end
+
+> Principais fundamentos de JavaScript para se preparar para trabalhar com frameworks front end
 
 ## JavaScript - Introdução aos arrays
 
 https://www.w3schools.com/js/js_array_methods.asp
 
 https://www.w3schools.com/jsref/jsref_obj_array.asp
-
 
 ```javascript
 // TAMANHO DO ARRAY
@@ -68,13 +68,13 @@ const frutas = ["Banana", "Laranja", "Uva"];
 
 console.log("Teste percorrer array");
 for (let i = 0; i < frutas.length; i++) {
-    console.log(frutas[i]);
+  console.log(frutas[i]);
 }
 
 // PERCORRER ARRAY COM FOREACH
 
 console.log("Teste percorrer array com forEach");
-frutas.forEach(item => {
-    console.log(item);
+frutas.forEach((item) => {
+  console.log(item);
 });
 ```

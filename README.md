@@ -7,31 +7,37 @@ Este repositório foi criado com o objetivo de fornecer uma base sólida nos fun
 ## Tópicos Abordados
 
 1. **Introdução ao JavaScript**
+
    - História e evolução do JavaScript
    - Ambiente de desenvolvimento
    - Configuração e uso de um editor de código
 
 2. **Sintaxe Básica**
+
    - Variáveis e tipos de dados
    - Operadores (aritméticos, comparação, lógicos)
    - Estruturas de controle (condicionais e loops)
 
 3. **Funções**
+
    - Declaração e invocação de funções
    - Funções anônimas e arrow functions
    - Parâmetros e retorno de valores
 
 4. **Objetos e Arrays**
+
    - Criação e manipulação de objetos
    - Arrays e métodos de manipulação
    - Iteração sobre objetos e arrays
 
 5. **Manipulação do DOM (Document Object Model)**
+
    - Seleção de elementos
    - Alteração de conteúdo e estilo
    - Eventos e manipulação de eventos
 
 6. **Programação Assíncrona**
+
    - Callbacks
    - Promises
    - Async/Await
@@ -55,6 +61,7 @@ Este repositório foi criado com o objetivo de fornecer uma base sólida nos fun
    ```bash
    git clone https://github.com/Albertinesilva/DevSuperior-JavaScript.git
    cd nivelamento-javascript
+   ```
 
 ## Autor:
 
