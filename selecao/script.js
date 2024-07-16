@@ -35,3 +35,8 @@ Array.from(metodosAntigos).map(item => {
 Array.from(metodosAntigos).map(item => {
   console.log(item.innerHTML);
 })
+
+// UTILIZANDO DATASET PARA PEGAR O ATRIBUTO DATA-* 
+const dataset = document.querySelector('[data-product-id="32"]');
+
+console.log(dataset);
