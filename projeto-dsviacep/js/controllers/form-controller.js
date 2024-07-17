@@ -35,10 +35,12 @@ export function init() {
 }
 
 function handleInputNumberChange(event) {
-  if (event.target.value.length > 0 || event.target.value !== '') {
-    setFormError('number', '');
-  } else {
+  if (event.target.value.length < 0 || event.target.value == '') {
+    // setFormError('number', '');
     setFormError('number', 'O campo número é obrigatório.');
+  } else {
+    // setFormError('number', 'O campo número é obrigatório.');
+    setFormError('number', '');
   }
 }
 
