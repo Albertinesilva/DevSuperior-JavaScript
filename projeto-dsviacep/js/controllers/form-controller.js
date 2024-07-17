@@ -34,16 +34,15 @@ export function init() {
 
 }
 
-function handleInputNumberChange(event){
-  if(event.target.value.length > 0 || event.target.value !== ''){
+function handleInputNumberChange(event) {
+  if (event.target.value.length > 0 || event.target.value !== '') {
     setFormError('number', '');
-  }else{
+  } else {
     setFormError('number', 'O campo número é obrigatório.');
   }
-    
 }
 
-function setFormError(key, value){
+function setFormError(key, value) {
   const element = document.querySelector(`[data-error="${key}"]`);
   element.innerHTML = value;
 }
