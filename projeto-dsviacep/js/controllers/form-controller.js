@@ -1,6 +1,6 @@
 import Address from "../models/address.js";
-// import * as requestService from "../services/request-service.js";
 import * as addressService from "../services/address-service.js";
+import * as listController from "./list-controller.js";
 
 function State() {
 
@@ -41,7 +41,7 @@ export function init() {
 }
 
 function handleInputNumberKeyup(event) {
-  state.address.number = event.target.value;  
+  state.address.number = event.target.value;
 }
 
 async function handleInputCepChange(event) {
@@ -67,7 +67,7 @@ async function handleInputCepChange(event) {
 
 async function handleBtnSaveClick(event) {
   event.preventDefault();
-  console.log(state.address);
+  listController.addCard(state.address);
 }
 
 function handleInputNumberChange(event) {
