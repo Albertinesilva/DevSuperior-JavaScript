@@ -1,4 +1,9 @@
-function State(){
+import Address from "../models/address.js";
+
+function State() {
+
+  this.address = new Address();
+
   this.btnSave = null;
   this.btnClear = null;
 
@@ -13,7 +18,7 @@ function State(){
 
 const state = new State();
 
-export function init(){
+export function init() {
   state.inputCep = document.forms.newAddress.cep;
   state.inputStreet = document.forms.newAddress.street;
   state.inputNumber = document.forms.newAddress.number;
