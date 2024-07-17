@@ -31,7 +31,7 @@ export function init() {
   state.errorNumber = document.querySelector('[data-error="number"]');
 
   state.inputNumber.addEventListener('change', handleInputNumberChange);
-
+  state.btnClear.addEventListener('click', handleBtnClearClick);
 }
 
 function handleInputNumberChange(event) {
@@ -42,6 +42,23 @@ function handleInputNumberChange(event) {
     // setFormError('number', 'O campo número é obrigatório.');
     setFormError('number', '');
   }
+}
+
+function handleBtnClearClick(event) {
+  event.preventDefault();
+  clearForm();
+}
+
+function clearForm() {
+  state.inputCep.value = '';
+  state.inputStreet.value = '';
+  state.inputNumber.value = '';
+  state.inputCity.value = '';
+
+  setFormError('cep', '');
+  setFormError('number', '');
+
+  state.inputCep.focus();
 }
 
 function setFormError(key, value) {
