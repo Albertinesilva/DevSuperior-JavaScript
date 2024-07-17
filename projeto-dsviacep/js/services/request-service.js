@@ -7,6 +7,6 @@ export async function getJson(url) {
     return jsonBody;
   }
   catch (error) {
-    throw new RequestException('Erro ao buscar dados da API ViaCEP.');
+    throw new RequestException('Informe um CEP válido.');
   }
 }
