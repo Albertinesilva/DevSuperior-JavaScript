@@ -30,5 +30,20 @@ export function init() {
   state.errorCep = document.querySelector('[data-error="cep"]');
   state.errorNumber = document.querySelector('[data-error="number"]');
 
-  console.log(state);
+  state.inputNumber.addEventListener('change', handleInputNumberChange);
+
+}
+
+function handleInputNumberChange(event){
+  if(event.target.value.length > 0 || event.target.value !== ''){
+    setFormError('number', '');
+  }else{
+    setFormError('number', 'O campo número é obrigatório.');
+  }
+    
+}
+
+function setFormError(key, value){
+  const element = document.querySelector(`[data-error="${key}"]`);
+  element.innerHTML = value;
 }
